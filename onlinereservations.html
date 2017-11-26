@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Κρατήσεις Online</title>
+		<link rel="stylesheet" type="text/css" href="style.css"><!--  connected to css -->
+		<link rel="icon" type="image/png" href="images/logo.png"><!-- favicon set -->
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> <!-- font connected to google fonts -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		<div id="wrapper"><!--  wrapper divided in four parts -->
+			
+			<header> <!--1st part of wrapper we set the header photo and size-->
+				<img id="headerphoto" src="images/white-door-theatro2.jpg" width="60%" height="auto">
+			</header> <!-- end of 1st part -->
+
+
+
+			<div class="maincontainer"><!--  2nd part of wrapper with our 1.Menu 2.Main Content and 3. social connection  -->
+
+				<div class="leftmenu"> <!--1.Menu set and class to set the size of menu div -->
+					<img src="images/logo.png" width="50%" class="menumargin"> <!-- image size set 50% and class to define image margin -->
+					<h1 class="menumargin">MENU</h1>
+					<ul> <!-- unordered list set linked with a hrefs and set width and styling in css -->
+						<li><a href="theplay.html">Η ΠΑΡΑΣΤΑΣΗ</a></li>
+						<li><a href="imagegallery.html">ΣΥΛΛΟΓΗ</a></li>
+						<li class="sizefix1"><a href="onlinereservations.html">ΚΡΑΤΗΣΕΙΣ ONLINE</a></li>
+						<li><a href="location.html">ΤΟΠΟΘΕΣΙΑ</a></li>
+						<li><a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+					</ul>
+				</div> <!-- end of 1.Menu -->
+				
+
+				<main><!--  2.Main Content  -->
+
+					<div id="formheader">
+						<div id="formheader2"> 
+							<p>ΚΡΑΤΗΣΕΙΣ <b>ONLINE</b></p> <!-- we set bold the online due to font mismatch -->
+						</div>
+
+						<div id="line1"></div> <!-- here we set a separate div to form the lines under the letters -->
+
+						<div>
+							<p>ΤΙΜΗ ΕΙΣΗΤΗΡΙΟΥ ΚΑΤ ‘ ΑΤΟΜΟ : 45 ΕΥΡΩ</p>
+							<p>(ΔΥΝΑΤΟΤΗΤΑ ΠΛΗΡΩΜΗΣ  ΚΑΙ ΣΤΟ ΤΑΜΕΙΟ ΤΟΥ ΘΕΑΤΡΟΥ)</p>
+						</div>
+
+						<div class="line"></div><!-- here we set a separate div to form the lines under the letters -->
+
+						<div>
+							<p>ΠΛΗΡΩΜΗ ΜΕ ΚΑΡΤΑ</p>
+							<p>(VISA, MASTERCARD, AMERICAN EXPRESS, MAESTRO)</p>
+						</div>
+
+						<div class="line linethick"></div><!-- here we set a separate div to form the lines under the letters and a thicker one with separate class -->
+					</div>
+
+					<div>
+						<form id="formsize"> <!-- here we have the form formation with a class to separate it to two divs floating left later on css -->
+							<div class="inputdt" id="inputdtfix">
+								<p>ΟΝΟΜΑ:</p>
+								<input type="text" name="firstname" placeholder="Το Όνομα σας" class="inputwidth1"><!--  we set size with class due to mockup styling -->
+								<p>ΕΠΩΝΥΜΟ:</p>
+								<input type="text" name="lastname" placeholder="Το Επώνυμο σας" class="inputwidth1">
+								<p>EMAIL:</p>
+								<input type="text" name="email" placeholder="Το Email σας" class="inputwidth1"> 
+							</div>
+
+							<div class="inputdt"><!-- here we have the form formation with a class to separate it to two divs floating left later on css -->
+								<p>ΑΡΙΘΜΟΣ ΚΑΡΤΑΣ:</p>
+								<input type="text" name="cardnumber" placeholder="Τον 16ψηφιο Αριθμό της κάρτας σας" class="inputwidth1"><!--  we set size with class due to mockup styling -->
+								<p>ΑΡΙΘΜΟΣ CVV:</p>
+								<input type="text" name="cvvnumber" placeholder="Το 3ψηφιο CVV της κάρτας σας" class="inputwidth1">
+								<p>ΗΜΕΡΟΜΗΝΙΑ ΛΗΞΗΣ:</p>
+								<input type="text" name="expdate" placeholder="Την ημερομηνία λήξης της κάρτας σας" class="inputwidth1">
+							</div>
+						</form>
+					</div>
+
+					<div id="buynowbtn"> <!-- here we set the buy now button -->
+						<a href="#"><p>ΑΓΟΡΑ ΤΩΡΑ</p></a>
+					</div>
+				</main> <!-- end of our 2.Main content -->
+
+				
+				<div class="socialmenu"> <!-- 3.Social / here we have our links and images with social media -->
+					<h3 class="findus">Find us on</h3>
+					<a href="https://el-gr.facebook.com/White-Door-Theatro-253338598182106/">
+						<img src="images/fb.png" width="100%" class="socialicons">
+					</a> <!-- class defined to set margin and styling at css -->
+
+					<a href="https://www.instagram.com/explore/locations/306361904/">
+						<img src="images/insta.png" width="100%" class="socialicons">
+					</a>
+
+					<a href="https://el-gr.facebook.com/White-Door-Theatro-253338598182106/">
+						<img src="images/tw.png" id="twittericon">
+					</a>
+					
+					<a href="https://www.tripadvisor.com.gr/Attraction_Review-g482942-d6721229-Reviews-The_White_Door_Theatro-Fira_Santorini_Cyclades_South_Aegean.html">
+						<img src="images/ta.png" width="95%" class="socialicons">
+					</a>
+				</div><!--  end of social connection div -->
+
+			</div><!--  end of part2 of wrapper and main content -->
+			
+
+
+			<div class="onlineres onlineresrespo"> <!-- 3rd part of wrapper where we set the online reservations buttoon and link -->
+				<a href="onlinereservations.html">
+					<img src="images/reservations.png" width="15%">
+				</a><!--  photo linked to reservation page -->
+			</div><!--  end of part3 wrapper -->
+
+
+
+			<footer><!--  4th and final part of wrapper the footer  -->
+				<div class="ftrleft"> <!-- here we set a class to style footer elements at css -->
+					<h6><a href="theplay.html">WHITE DOOR THEATRO</a></h6>
+				</div>
+
+				<div class="ftrleft">
+					<h6><a href="index.html">ΕΠΙΛΟΓΗ ΓΛΩΣΣΑΣ</a></h6>
+				</div>
+
+				<div class="ftrleft">
+					<h6><a href="theplay.html">ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</a></h6>
+				</div>
+
+				<div class="ftrleft">
+					<h6><a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></h6>
+				</div>
+
+				<div class="ftrleft date"> <!-- here we set an extra class of date to move this div to the right of footer -->
+					<h6>2017 SAE Nikolaos Petrakis</a></h6>
+				</div>
+			</footer> <!-- end of part4 footer -->
+
+
+
+		</div><!-- end of wrapper -->
+	</body> <!-- end of body -->
+</html> <!-- end of html -->

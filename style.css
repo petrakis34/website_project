@@ -1,0 +1,990 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+* {
+	margin:0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+	color: #bfbfbf !important;
+}
+
+body{
+	background-image: url(images/wide.jpg);
+}
+
+#wrapper {
+	max-width: 1263px; /*here we set our max width to be centered above 1263px*/
+	height: auto;
+	margin: 0 auto;
+}
+
+/*CSS Welcome Page*/
+
+.pict1 {
+	margin-top: 10px; /*pitures sizes to fit accordingly*/
+	margin-left: 22%;
+	width: 100%;
+}
+
+.logosign {
+	margin-left: 45%;
+	width: 100%;
+}
+
+#welcomesign {
+	background-color:#585448; /*welcome sign configuration*/
+	text-align: center;
+	width: 440px;
+	height: 80px;
+	border:solid 1px black;
+	margin-left: 32%;
+	padding-bottom: 10px;
+	color: #bfbfbf;
+}
+
+#langselect {
+	background-color:#585448; /*language selection menu configuration*/
+	text-align: center;
+	width: 310px;
+	height: 30px;
+	border:solid 2px black;
+	margin-top: 30px;
+	font-size: x-large;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#langselect nav ul li { /*here we make the menus*/
+	list-style: none;
+}
+
+#langselect nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	display: inline-block;
+} 
+
+#langselect nav ul li a:hover {
+	color: white;
+}
+
+#langselect nav ul ul li { /*here we have the dropdown menu construction*/
+	position: relative;
+	left:312px;
+	background-color:#585448;
+	width: 310px;
+	height: 30px;
+	border:solid 2px black;
+	top: -50px;
+}
+
+#langselect nav ul li ul {
+	visibility: hidden;
+}
+
+#langselect nav ul li:hover ul {
+	visibility: visible; /*here on hover we make our previously hidden menu visible so the dropdown will work properly */
+}
+
+.onlineres {/* this is the styling of our linked reservation button*/
+	text-align: center;
+	padding-left: 20px;
+	font-size:14pt;
+}
+
+.onlineres a:hover {
+	color: white;
+}
+
+.onlineres img {
+	border: 2px white solid;
+}
+
+footer { /*the styling of our footer*/
+	width: 75%;
+	margin-top: 25px;
+	background-color: #585448;
+	height: 50px;
+	padding-right: 50px;
+	line-height: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border:1px solid black;
+}
+
+.ftrleft {/* the styling of our individual footer parts*/
+	float:left;
+	padding-left: 25px;
+}
+
+.ftrleft a{
+	text-decoration: none;
+	color:black;
+}
+
+.ftrleft a:hover {
+	color: white;
+}
+
+.date {
+	float: right;
+}
+
+#indexonlineres img {
+	width:20%;
+}
+
+/*CSS the play*/
+
+header {
+	width: 100%; 
+	height: auto;
+}
+
+#headerphoto {
+	margin-top: 10px;
+	margin-left: 21%;
+}
+
+.maincontainer { /*here we set our main container size*/
+	width: 100%;
+	height: 550px;
+}
+
+.maincontainer p {
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.leftmenu {/* here we have the styling of all our left menus*/
+	float: left; 
+	text-align: center;
+	margin-top: 20px;
+	width: 13%;
+	margin-left: 10%;
+}
+
+.leftmenu ul li { 
+	line-height: 35px;
+	background-color: #585448;
+	margin-top: 10px;
+	font-size: 11pt; 
+	list-style: none;
+	margin-top: 20%;
+}
+
+.leftmenu ul li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	font-weight: bold;
+}
+ 
+.leftmenu ul li a:hover { /*here we set color parameters and styling when menu items hover*/
+	background-color: #585448;
+	color:white;
+}
+
+.menumargin {
+	margin-left: 5%;
+}
+
+main {
+	width: 52%;/* here we set the main size and styling*/
+	height: auto;
+	float: left;
+	background-color: #585448;
+	margin-top:2%;
+	margin-left: 2%;
+}
+
+#maincont { /*here we style further one port of our main container*/
+	width: 57%;
+	height: 500px;
+	float: left;
+	text-align: center;
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%; 
+}
+
+#playheader {
+	padding-bottom: 8%;
+}
+
+.parplay {
+	padding-bottom: 3%;
+}
+
+#maincont2 {
+	float: left;
+	width: 25%;
+	height: auto;
+	margin-left: 2%;
+	padding-top: 9%;
+
+}
+
+.imagesmain {
+	padding-top: 15%;
+}
+
+.socialmenu { /*here we style our social bar linked with all proper pages*/
+	float: left;
+	width: 5%;
+	text-align: center;
+	margin-left: 5%;
+	padding-top: 12%;
+}
+
+.findus {/* here we style the letters above the social bar*/
+	color: #ccb8af;
+}
+
+.socialicons { /*here we set the size of our social icons*/
+	margin-top: 16%;
+	padding-left:10%;
+}
+
+#twittericon {
+	width: 118%;
+	margin-top: 16%;
+}
+
+.onlineres a  {
+	text-decoration: none;
+	color: #d9d9d9;
+}
+
+/*CSS Image Gallery*/
+#galleryonlineres p{
+	margin-top: 1%;
+}
+
+#galleryheader {
+	text-align: center;
+}
+
+#activegallery1 { /*here we have the left button of our gallery the previous*/
+	float: left;
+	height: auto;
+	width: 10%;
+	margin-top: 18%;
+	padding-left: 3%;
+}
+
+#activegallery2 { /*here is our main space of our gallery where the pictures are altered*/
+	float: left;
+	height: auto;
+	width: 70%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+#activegallery3 { /*here we have the right button of our gallery the next*/
+	float: left;
+	height: auto;
+	width: 10%;
+	margin-top: 17%;
+}
+
+.imagesmain2 { /*here is the space of our thumbnails*/
+	padding-top: 3%;
+	padding-left: 6%;
+	padding-bottom: 2%;
+}
+
+/*CSS Online Reservations*/
+
+#formheader { /*on these formheaders we style the letters on our online reservations page*/
+	text-align: center;
+}
+
+#formheader p {
+	font-size: 13pt;
+}
+
+#formheader2 p {
+	font-size: 15pt;
+	font-weight: lighter;
+	margin-top:2%;
+
+}
+
+#formsize { /*here we give dimensions to oour form*/
+	width: 100%;
+	height: 240px;
+}
+
+.inputdt p { /*here we set the size of our p's indide our form*/
+	font-size: 12pt;
+}
+
+#line1 { /*we have these lines because underline didnt work due to mockup design*/
+	width: 29%;
+	height: 1px;
+	border-bottom: 1px solid black;
+	margin-left: 35%;
+	margin-bottom: 2%;
+}
+
+.line { /*we have these lines because underline didnt work due to mockup design*/
+	width: 29%;
+	height: 1px;
+	border-bottom: 1px solid black;
+	margin-left: 35%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+.linethick { /*we have these lines because underline didnt work due to mockup design wanted even thicker one*/
+	border-bottom-width: medium;
+	margin-bottom: 2%;
+}
+
+.inputdt {
+	width: 40%;
+	float: left;
+	height: auto;
+	padding-left: 8%;
+}
+
+.inputdt p {
+	padding-bottom: 3%;
+	padding-top: 7%;
+}
+
+.inputwidth1 {
+	width: 100%;
+}
+
+#buynowbtn {/* this is our buy now button dimensions and styling*/
+	width: 30%;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 15px; 
+	background-color: white;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 33%;
+	margin-bottom: 2%;
+}
+
+#buynowbtn p {
+	font-size: 15pt;
+	color: black;
+}
+
+#buynowbtn a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#buynowbtn a:hover {
+	background-color: grey;
+	color: white;
+	border-radius: 14px; 
+}
+
+.homeres { /*this is our button to drive us to the main page placed at the reservations page*/
+	width: 30%;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 12px; 
+	background-color: rgb(186,170,150);
+	text-align: center;
+	line-height: 25px;
+	margin-left: 34%;
+	margin-bottom: 4%;
+}
+
+.homeres p { /* p styling indide homepage button*/
+	font-size: 13pt;
+}
+
+.homeres a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.homeres a:hover {
+	background-color: grey;
+	color: white;
+	border-radius: 12px; 
+}
+
+/*CSS Map and Location*/
+
+#location1 {
+	width: 100% /*main header in location page*/
+	height:20%;
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+
+#location1 p {
+	font-size: 15pt;
+}
+
+#locationline {
+	width: 42%;
+	height: 1px;
+	border-bottom: 1px solid black;
+	margin-left: 28.5%;
+	margin-bottom: 2%;
+	margin-top: 1%;
+}
+
+#locationmap1 {/* this is our google map main part in location page*/
+	width: 60%;
+	height: auto;
+	float: left;
+	margin-left: 3%;
+	margin-bottom: 3%;
+}
+
+#locationmap1 p {
+	padding-bottom: 2%;
+	font-size: 11pt;
+}
+
+#locationmap1 p u {
+	text-decoration: none;
+	border-bottom: 2px solid black;
+}
+
+#locationmap2 { /*this where our static map is in our location page*/
+	width: 30%;
+	height: auto;
+	float: left;
+	margin-left: 4%;
+}
+
+#locationmap2 p {/*   below these line is p styling below the static map*/
+	padding-bottom: 4%;
+	font-size: 11pt;
+}
+
+#locationmap2 p u {
+	text-decoration: none;
+	border-bottom: 2px solid black;
+}
+
+#locationmap22 {
+	margin-top: 15%;
+}
+
+#locationmap23 {
+	margin-top: 20%;
+}
+
+#locationmap22 p u {
+	text-decoration: none;
+	border-bottom: 2px solid black;
+}
+
+#locationmap23 p u {
+	text-decoration: none;
+	border-bottom: 2px solid black;
+}
+
+/*CSS Contact Form*/
+
+#contactheader {/* this is where we have the first header of our contact form*/
+	width: 100%;
+	height: 30%;
+	text-align: center;
+}
+
+#contactheader2 p { /*this is a clever way to avoid underlining and replacing it with bottom border*/
+	font-size: 17pt;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#contactheader2 p u { /*this is a clever way to avoid underlining and replacing it with bottom border*/
+	text-decoration: none;
+	border-bottom: 2px solid black;
+}
+
+
+#contactheader3 p {
+	font-size: 13pt;
+}
+
+#contactform { /*this is our contact form*/
+	width: 100%;
+	height: 60%;
+}
+
+#contactform h2 {
+	text-align: center;
+	margin-bottom: 3%;
+	margin-top: 2%;
+}
+
+#contact1 {
+	width: 100%;
+	height: 70%;
+}
+
+#contact2 {
+	width: 100%;
+	height: 90%;
+	margin-left: 5%;
+	margin-bottom: 2%;
+}
+
+#contact2 p {
+	font-size: 12pt;
+	margin-bottom: 1%;
+}
+
+.contactdata1 { /*here we separate the input data in two columns so they ca float left to each other;*/
+	width: 45%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	margin-bottom: 4%;
+}
+
+.contactdata2 { /*here we separate the input data in two columns so they ca float left to each other;*/
+	width: 45%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	margin-bottom: 4%;
+}
+
+.contactdata1 p {
+	font-size: 12pt;
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+
+.contactdata2 p {
+	font-size: 12pt;
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+
+.inputwidth2 { /*here we set the input width with class in order to fit our main page. i previously had size inside the input in html but deleted it*/
+	width: 90%;
+}
+
+.inputwidth3 { /*here we set the input width with class in order to fit our main page. i previously had size inside the input in html but deleted it*/
+	width:90%;
+	height: 90px;
+}
+
+/*Start of CSS Responsive*/
+
+
+@media screen and (max-width: 960px) {
+
+	.logosign { /*here i decided to remove the logo sign. it was causing too much difficulties in styling of welcome sign*/
+		display: none;
+	}
+
+	#welcomesign { /*here we center our welcome sign*/
+		margin-left: auto;
+		margin-right: auto;
+		width:53%;
+	}
+
+	#langselect nav ul ul li { /*here we lower the width of our language selection list*/
+		position: relative;
+		left:312px;
+		background-color:#585448;
+		width: 200px;
+		height: 30px;
+		border:solid 2px black;
+		top: -50px;
+	}
+
+	.ftrleft {
+		padding-left: 1%;
+	}
+	
+	#date {/* here we float from right to left the far right data on our Footer*/
+		float: left;
+	}
+
+	#maincont {/* here we lower the width of our main container in theplay.html*/
+		width: 100%;
+		height: 450px;
+		float: none;
+		text-align: center;
+		padding-top: 2%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	#maincont2 {/* we remove the pictures of our maincontent*/
+		display: none;
+	}
+
+	.onlineresrespo {
+		margin-top: -5%;
+	}
+
+	#gallerymaincont {
+		height: 330px; /*we lower the width of our gallery*/
+	}
+
+	.homeres { /*we restyle the button that sends us at home page theplay.html*/
+		width: 30%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1%;
+	}
+
+	#locationmap2 { /*here we restyle the width of our static map*/
+		width: 80%;
+		height: auto;
+		float: none;
+		margin-left: 4%;
+	}
+
+	#locationmap22 {
+		margin-top: 5%;
+		float:left;
+	}
+
+	#locationmap23 {
+		margin-top: 5%;
+		float: left;
+		margin-left: 5%;
+	}
+
+	.locationfix {
+		margin-top: 15%;
+	}
+
+	#locationmap21 p{
+		display: none;
+	}
+
+	.leftmenu ul li {
+		font-size: 80%; 
+	}
+
+}
+
+
+
+@media screen and (max-width: 720px) {
+
+	#langselect nav ul ul li {/* here we restyle the style of language menu*/
+		position: relative;
+		left: -2px;
+		background-color:#585448;
+		width: 310px;
+		height: 30px;
+		border:solid 2px black;
+		top: 0px;
+	}
+
+	footer {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#buynowbtn p {
+		font-size: 80%;
+	}
+
+	.homeres p {
+		font-size: 80%;
+	}
+
+	#locationmap23 {
+		margin-top: 5%;
+		float: left;
+		margin-left: 0;
+	}
+ 
+	.googlemap {/* here we set an extra class insife our google map to resize it*/
+		width: 155%;
+		height: 120%;
+	}
+
+	#locationmap22 {
+		margin-top: 5%;
+		float:left;
+		text-align: center;
+		margin-left: 30%;
+	}
+
+	#locationmap23 {
+		margin-top: 5%;
+		float: left;
+		margin-left: 33%;
+		text-align: center;
+	}
+
+	#locationfixbtn {
+		font-size: 90%;
+		margin-top: 5%;
+		margin-bottom: 0;
+	}
+
+	#locationfix {
+		margin-top: 1%;
+	}
+}
+
+@media screen and (max-width: 570px) {
+
+	.leftmenu ul li {/* here we lower the font inside our menu*/
+		font-size: 60%; 
+	}
+
+	.leftmenu h1 {
+		font-size: 100%;
+	}
+
+	#maincont { 
+		width: 100%;
+		height: 520px;
+		float: none;
+		text-align: center;
+		padding-top: 2%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.onlineresrespo {
+		margin-top: 0;
+	}
+
+	#gallerymaincont {
+		height: 290px;
+	}
+
+	#galleryonlineres { /*here we move up our gallery online reservation button*/
+		margin-top:-150px;
+	}
+
+	#activegallery2 {
+		float: left;
+		height: auto;
+		width: 80%;
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+
+	#activegallery1 {
+		float: left;
+		height: auto;
+		width: 5%;
+		margin-top: 18%;
+		padding-left: 3%;
+	}
+
+	#activegallery3 {
+		float: left;
+		height: auto;
+		width: 5%;
+		margin-top: 17%;
+	}
+
+	#formheader p {
+		font-size: 80%;
+	}
+
+	#buynowbtn {
+		margin-top: -10%;
+	}
+
+	#buynowbtn p {
+		font-size: 70%;
+	}
+
+	#inputdtfix p {
+		padding-bottom: 3%;
+		padding-top: 19%;
+	}
+
+	.homeres {
+		margin-top: -20%;
+	}
+
+	#locationmap22 {
+		margin-top: 5%;
+		float:left;
+		text-align: center;
+		margin-left: 18%;
+	}
+
+	#locationmap23 {
+		margin-top: 5%;
+		float: left;
+		margin-left: 23%;
+		text-align: center;
+	}
+
+	#locationfixbtn {
+		margin-top: -9%;
+	}
+	
+	#contactheader2 p {
+		font-size: 90%;
+	}
+
+	#contactheader3 p{
+		font-size: 90%;
+	}
+
+	#contactform h2 {
+		font-size: 95%;
+	} 
+
+	.contactdata1 p{
+		font-size: 90%;
+	}
+
+	.contactdata2 p{
+		font-size: 90%;
+	}
+
+	#contact2 p{
+		font-size: 90%;
+	}
+
+	#contactonlineres {
+		margin-top: -20%;
+		margin-bottom: -3%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+
+	main { /*here at the first time we lower the main height to fit our mobile pages*/
+		width: 70%;
+	}
+
+	#maincont {/* here we lower our main content height*/
+		height: 400px;
+	}
+
+	.onlineresrespo {
+		display: none;
+	}
+
+	#welcomesign {
+		margin-left: auto;
+		margin-right: auto;
+		width:43%;
+		font-size: 70%;
+	}
+
+	#indexonlineres{
+		display: none;
+	}
+
+	#footerfix { /*here we give footer an id to fix it furtherfor our language selection page index.html*/
+		width: 70%;
+		margin-top: 20%;
+		background-color: #585448;
+		height: auto;
+		line-height: 50px;
+		margin-left: 15%;
+		margin-right: auto;
+		border:1px solid black;
+		padding-right: 0;
+	}
+
+	.ftrleft {
+		width: 100%;
+		float: none;
+		border-bottom: 1px solid black;
+	}
+
+	footer{
+		width: 70%;
+		margin-top: -28%;
+		background-color: #585448;
+		height: auto;
+		line-height: 50px;
+		margin-left: 25%;
+		margin-right: auto;
+		border:1px solid black;
+		padding-right: 0;
+	}
+
+	#maincont {
+	
+		width: 100%;
+	}
+
+	.socialmenu{
+		display: none;
+	}
+
+	#maincont h2 {
+		font-size: 90%;
+	}
+
+	#maincont p {
+		font-size: 70%;
+	}
+
+	.leftmenu ul li {
+		font-size: 40%; 
+	}
+
+	#gallerymaincont {
+		height: 250px;
+	}
+
+	#galleryonlineres {
+		margin-top:-190px;
+	}
+
+	#gallerymain{
+		margin-top: 10%;
+	}
+
+	.inputdt p {
+	font-size: 60%;
+	}
+
+	#buynowbtn {
+		margin-top: -22%;
+		width: 50%;
+		margin-left: 28%;
+	}
+
+	#buynowbtn p {
+		font-size: 50%;
+	}
+
+	.homeres {
+		display:none;
+	}
+
+	#inputdtfix p {
+		padding-bottom: 3%;
+		padding-top: 11%;
+	}
+
+	#locationfixbtn {
+		display: none;
+	}
+
+	#contactonlineres {
+		display: none;
+	}
+}
